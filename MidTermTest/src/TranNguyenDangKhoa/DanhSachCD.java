@@ -6,7 +6,7 @@ public class DanhSachCD {
     public static ArrayList<CD> danhSachCD(){
         ArrayList<CD> dsCD = new ArrayList<CD>();
         dsCD.add(new CD(001, "nhac dong que", "Thu Hien", 15, 10_000));
-        dsCD.add(new CD(002, "nhac tre", "Son Tung MTV", 5, 10_000));
+        dsCD.add(new CD(002, "nhac tre", "Son Tung MTV", 5, 8_000));
         return dsCD;
     }
 
